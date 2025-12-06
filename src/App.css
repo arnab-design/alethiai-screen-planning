@@ -152,6 +152,15 @@
   color: #006666;
 }
 
+.col-category {
+  width: 150px;
+  font-weight: 600;
+  color: #00A0A0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .col-purpose {
   width: 250px;
   color: #333333;
@@ -249,7 +258,8 @@
   }
   
   .col-features,
-  .col-notes {
+  .col-notes,
+  .col-category {
     display: none;
   }
 }
