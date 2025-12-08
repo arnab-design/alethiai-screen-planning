@@ -224,6 +224,32 @@
   font-weight: 500;
 }
 
+.page-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #00C8C8;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+  border: 2px solid transparent;
+}
+
+.nav-link:hover {
+  background: rgba(0, 200, 200, 0.1);
+  border-color: #00C8C8;
+  transform: translateX(2px);
+}
+
+.nav-link:first-child:hover {
+  transform: translateX(-2px);
+}
+
 @media (max-width: 1200px) {
   .screens-table {
     font-size: 0.9rem;
